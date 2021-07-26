@@ -11,8 +11,8 @@ nav:
 extra:
   alternate:
     - name: English
-      link: /en/
+      link: /mkdocs-playground/en/
       lang: en
     - name: 中文
-      link: /zh/
+      link: /mkdocs-playground/zh/
       lang: zh
