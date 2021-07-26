@@ -26,13 +26,13 @@ jobs:
       
       - name: Build mkdocs
         run: |
-          mkdocs build -f zh/mkdocs.yml
-          mkdocs build -f en/mkdocs.yml
-          cp -av index.html ./site
+          mkdocs build -f ./docs/mkdocs.en.yml
+          mkdocs build -f ./docs/mkdocs.zh.yml
+          cp -av index.html ./docs/site
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
+          publish_dir: ./docs/site
