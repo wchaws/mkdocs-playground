@@ -1,6 +1,7 @@
 site_name: My Docs
 site_url: https://example.com/
 site_dir: ../site/zh
+repo_url: https://github.com/wchaws/mkdocs-playground
 theme: 
   name: material
   features: 
