@@ -1,19 +1,4 @@
-site_name: My Docs
-site_url: https://example.com/
+INHERIT: ../mkdocs.base.yml
 site_dir: ../site/en
-repo_url: https://github.com/wchaws/mkdocs-playground
-theme: 
-  name: material
-  features: 
-    - tabs
 nav:
   - Home: index.md
-
-extra:
-  alternate:
-    - name: English
-      link: /mkdocs-playground/en/
-      lang: en
-    - name: 中文
-      link: /mkdocs-playground/zh/
-      lang: zh
