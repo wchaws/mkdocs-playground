@@ -8,4 +8,4 @@ nav:
   - 标签页 1:
       - 概览: tab1/index.md
   - 标签页 2:
-      - 概览: ../../en/tab2
+      - 概览: "https://wchaws.github.io/mkdocs-playground/en/tab2/"
