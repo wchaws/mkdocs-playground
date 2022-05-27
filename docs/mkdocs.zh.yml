@@ -5,3 +5,7 @@ theme:
   language: zh
 nav:
   - 主页: index.md
+  - 标签页 1:
+      - 概览: tab1/index.md
+  - 标签页 2:
+      - 概览: ../en/tab2/index.md

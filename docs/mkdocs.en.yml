@@ -5,3 +5,7 @@ theme:
   language: en
 nav:
   - Home: index.md
+  - Tab1:
+      - Overview: tab1/index.md
+  - Tab2:
+      - Overview: tab2/index.md

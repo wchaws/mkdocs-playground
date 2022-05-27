@@ -4,7 +4,7 @@ repo_url: https://github.com/wchaws/mkdocs-playground
 theme:
   name: material
   features:
-    - tabs
+    - navigation.tabs
     - search.suggest
     - search.highlight
 plugins:
